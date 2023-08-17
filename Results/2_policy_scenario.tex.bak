@@ -1,0 +1,39 @@
+\documentclass[]{article}\pagestyle{empty}\begin{document}
+\begin{center}
+\begin{tabular}{lccccccccc}
+\hline \noalign{\smallskip} & \multicolumn{3}{c}{Violent Crimes} & \multicolumn{3}{c}{Property Crimes} & \multicolumn{3}{c}{Total Crimes}\\
+ & \multicolumn{2}{c}{Benefited Q.} & Predicted # & \multicolumn{2}{c}{Benefited Q.} & Predicted # & \multicolumn{2}{c}{Benefited Q.} & Predicted #\\
+ & N & \% & Mean (SD) [SE] & N & \% & Mean (SD) [SE] & N & \% & Mean (SD) [SE]\\
+\noalign{\smallskip}\hline \noalign{\smallskip}Observed &  &  & 11.84 &  &  & 23.86 &  &  & 35.70\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(8.56)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(17.88)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(21.42)\end{footnotesize}\\
+\noalign{\smallskip}Predicted &  &  & 11.14 &  &  & 21.58 &  &  & 32.59\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.91)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.75)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.89)\end{footnotesize}\\
+\noalign{\smallskip}Uniform time &  &  & 11.35 &  &  & 23.80 &  &  & 34.67\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.61)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(2.54)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(2.54)\end{footnotesize}\\
+\noalign{\smallskip}Proportional time &  &  & 11.83 &  &  & 22.19 &  &  & 33.92\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.84)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(2.38)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(2.67)\end{footnotesize}\\
+\noalign{\smallskip}10\% increase & 1,000 & 95.2 & 11.10 & 1,000 & 95.2 & 21.41 & 999 & 95.1 & 32.36\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.90)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.71)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.81)\end{footnotesize}\\
+\noalign{\smallskip}20\% increase & 914 & 87.0 & 10.15 & 911 & 86.8 & 21.80 & 912 & 86.9 & 31.22\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.97)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.66)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.73)\end{footnotesize}\\
+\noalign{\smallskip}30\% increase & 855 & 81.4 & 10.30 & 854 & 81.3 & 22.42 & 854 & 81.3 & 31.53\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.07)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.64)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.68)\end{footnotesize}\\
+\noalign{\smallskip}40\% increase & 803 & 76.5 & 10.40 & 805 & 76.7 & 22.50 & 805 & 76.7 & 31.36\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.13)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.66)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.67)\end{footnotesize}\\
+\noalign{\smallskip}50\% increase & 756 & 72.0 & 10.46 & 756 & 72.0 & 22.77 & 756 & 72.0 & 31.57\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.28)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.80)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.82)\end{footnotesize}\\
+\noalign{\smallskip}60\% increase & 717 & 68.3 & 10.54 & 717 & 68.3 & 23.14 & 715 & 68.1 & 32.03\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.40)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.85)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.85)\end{footnotesize}\\
+\noalign{\smallskip}70\% increase & 682 & 65.0 & 10.59 & 682 & 65.0 & 23.33 & 680 & 64.8 & 32.26\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.50)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.87)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.89)\end{footnotesize}\\
+\noalign{\smallskip}80\% increase & 645 & 61.4 & 10.67 & 641 & 61.0 & 23.65 & 643 & 61.2 & 32.51\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.61)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.94)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.89)\end{footnotesize}\\
+\noalign{\smallskip}90\% increase & 600 & 57.1 & 10.75 & 601 & 57.2 & 24.16 & 601 & 57.2 & 33.34\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.73)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(2.11)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(2.07)\end{footnotesize}\\
+\noalign{\smallskip}100\% increase & 568 & 54.1 & 10.82 & 568 & 54.1 & 25.21 & 569 & 54.2 & 34.18\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.85)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(2.40)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(2.44)\end{footnotesize}\\
+\noalign{\smallskip}Reassignment 4 & 616 & 58.7 & 10.35 & 693 & 66.0 & 19.34 & 768 & 73.1 & 30.01\\
+ & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.24)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.75)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(1.75)\end{footnotesize}\\
+\noalign{\smallskip}\hline\end{tabular}\\
+\end{center}
+\end{document}

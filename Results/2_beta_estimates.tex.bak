@@ -1,0 +1,49 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & Violent crimes & Property crimes & Total crimes \\ \hline
+ &  &  &  \\
+Proportion of hotspot street segments & 0.6522** & 1.5188*** & 1.3312*** \\
+ & (0.3028) & (0.5798) & (0.4215) \\
+Average longitude of street segments (mt) & -0.0021 & -0.0012 & -0.0018 \\
+ & (0.0014) & (0.0036) & (0.0027) \\
+Average built meters per street segment meter & 0.0000*** & 0.0000* & 0.0000*** \\
+ & (0.0000) & (0.0000) & (0.0000) \\
+Average distance to nearest shopping center & -0.0000 & -0.0003*** & -0.0001** \\
+ & (0.0000) & (0.0001) & (0.0001) \\
+Average distance to nearest educational center & -0.0003*** & 0.0001 & -0.0001 \\
+ & (0.0001) & (0.0001) & (0.0001) \\
+Average distance to nearest park/recreational center & 0.0001 & -0.0000 & -0.0000 \\
+ & (0.0001) & (0.0001) & (0.0001) \\
+Average distance to nearest police station & -0.0003*** & -0.0002* & -0.0002*** \\
+ & (0.0001) & (0.0001) & (0.0001) \\
+Average distance to nearest religious/cultural center & 0.0001** & 0.0001* & 0.0002*** \\
+ & (0.0001) & (0.0001) & (0.0001) \\
+Average distance to nearest health center & 0.0000 & -0.0000 & -0.0000 \\
+ & (0.0001) & (0.0001) & (0.0001) \\
+Average distance to nearest transport infrastructure & -0.0012*** & -0.0013** & -0.0014*** \\
+ & (0.0004) & (0.0005) & (0.0005) \\
+Proportion of street segments zoned for industry/commerce & 0.3433 & 0.3073 & 0.2764 \\
+ & (0.3190) & (0.4207) & (0.3905) \\
+Proportion of street segments zoned for housing & 0.4341* & -0.1778 & -0.0574 \\
+ & (0.2582) & (0.2954) & (0.2868) \\
+Proportion of middle income street segments & 0.0007 & 0.5815*** & 0.3855*** \\
+ & (0.0827) & (0.1103) & (0.1009) \\
+Proportion of high income street segments & -0.6294*** & 0.4551** & 0.1491 \\
+ & (0.0832) & (0.2190) & (0.1757) \\
+Average distance to nearest additional services office & -0.0000 & -0.0001** & -0.0001 \\
+ & (0.0001) & (0.0001) & (0.0001) \\
+Average distance to closest surveillance camera & 0.0000 & -0.0001 & -0.0001 \\
+ & (0.0001) & (0.0001) & (0.0001) \\
+ &  &  &  \\
+Observations & 1,050 & 1,050 & 1,050 \\
+R-squared & 0.3801 & 0.4138 & 0.2813 \\
+Controls & Yes & Yes & Yes \\
+Previos patrol time & Yes & Yes & Yes \\
+ Locality FE & Yes & Yes & Yes \\ \hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}

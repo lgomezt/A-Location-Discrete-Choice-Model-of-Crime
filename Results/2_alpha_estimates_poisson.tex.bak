@@ -1,0 +1,19 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lcccccccccccccccccccccccccccccc} \hline
+ & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) & (13) & (14) & (15) & (16) & (17) & (18) & (19) & (20) & (21) & (22) & (23) & (24) & (25) & (26) & (27) & (28) & (29) & (30) \\
+VARIABLES & Violent crimes & Violent crimes & Violent crimes & Violent crimes & Violent crimes & Violent crimes & Violent crimes & Violent crimes & Violent crimes & Violent crimes & Property crimes & Property crimes & Property crimes & Property crimes & Property crimes & Property crimes & Property crimes & Property crimes & Property crimes & Property crimes & Total crimes & Total crimes & Total crimes & Total crimes & Total crimes & Total crimes & Total crimes & Total crimes & Total crimes & Total crimes \\ \hline
+ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+$\alpha$ & -0.004 & -0.003** &  &  & -0.005* &  &  & -0.006** &  &  & -0.007 & -0.006*** &  &  & -0.010** &  &  & -0.010* &  &  & -0.006* & -0.005*** &  &  & -0.008*** &  &  & -0.008** &  &  \\
+ & (0.003) & (0.001) &  &  & (0.002) &  &  & (0.003) &  &  & (0.005) & (0.002) &  &  & (0.004) &  &  & (0.005) &  &  & (0.003) & (0.002) &  &  & (0.003) &  &  & (0.004) &  &  \\
+ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & (.) &  &  & (.) &  &  &  &  &  &  &  &  &  &  & . \\
+Observations & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 & 1,050 \\
+Controls & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+Previos patrol time & No & No & No & No & Yes & Yes & Yes & Yes & Yes & Yes & No & No & No & No & Yes & Yes & Yes & Yes & Yes & Yes & No & No & No & No & Yes & Yes & Yes & Yes & Yes & Yes \\
+Locality FE & No & No & No & No & No & No & No & Yes & Yes & Yes & No & No & No & No & No & No & No & Yes & Yes & Yes & No & No & No & No & No & No & No & Yes & Yes & Yes \\
+ Method & GMM & CF & CF & CF & CF & CF & CF & CF & CF & CF & GMM & CF & CF & CF & CF & CF & CF & CF & CF & CF & GMM & CF & CF & CF & CF & CF & CF & CF & CF & CF \\ \hline
+\multicolumn{31}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{31}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}

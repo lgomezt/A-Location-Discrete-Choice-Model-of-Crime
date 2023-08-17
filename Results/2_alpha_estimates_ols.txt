@@ -1,0 +1,13 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)
+VARIABLES	LABELS	Violent crimes	Violent crimes	Violent crimes	Violent crimes	Property crimes	Property crimes	Property crimes	Property crimes	Total crimes	Total crimes	Total crimes	Total crimes
+													
+tpat_min_e	$\alpha$	-0.000	-0.001**	-0.002**	-0.002**	-0.002**	-0.003***	-0.004***	-0.005***	-0.001*	-0.003***	-0.004***	-0.004***
+		(0.001)	(0.001)	(0.001)	(0.001)	(0.001)	(0.001)	(0.001)	(0.001)	(0.001)	(0.001)	(0.001)	(0.001)
+													
+Observations		1,050	1,050	1,050	1,050	1,050	1,050	1,050	1,050	1,050	1,050	1,050	1,050
+R-squared		0.023	0.316	0.317	0.390	0.019	0.354	0.356	0.424	0.010	0.207	0.211	0.298
+Controls		No	Yes	Yes	Yes	No	Yes	Yes	Yes	No	Yes	Yes	Yes
+Previos patrol time		No	No	Yes	Yes	No	No	Yes	Yes	No	No	Yes	Yes
+Locality FE		No	No	No	Yes	No	No	No	Yes	No	No	No	Yes
+Robust standard errors in parentheses													
+*** p<0.01, ** p<0.05, * p<0.1													

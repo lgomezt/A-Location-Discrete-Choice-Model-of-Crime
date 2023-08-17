@@ -1,0 +1,17 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	Violent crimes	Property crimes	Total crimes
+				
+tpat_min_e_	$\alpha$	-0.012***	-0.016***	-0.016***
+		(0.004)	(0.005)	(0.005)
+tpat_dark	tpat_dark	0.004***	0.002	0.003
+		(0.002)	(0.002)	(0.002)
+dark	M1_306.No.de orden	-0.104**	-0.424***	-0.304***
+		(0.045)	(0.057)	(0.060)
+				
+Observations		2,100	2,100	2,100
+R-squared		0.303	0.386	0.252
+Controls		Yes	Yes	Yes
+Previos patrol time		Yes	Yes	Yes
+Locality FE		Yes	Yes	Yes
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				
