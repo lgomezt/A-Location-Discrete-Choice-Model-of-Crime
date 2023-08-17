@@ -8,7 +8,7 @@ This repository has three main folders. The content of each one is outlined belo
   - 2_homogeneous_model.do: Produces tables and figures related to the estimation of the main model.
   - 3_homogeneous_spatio_temporal.do: Produces tables and figures related to the estimation of an augmented model that includes day/night as a choice.
   - 4_boostrap.do: Produces the Standard Errors neede for statistical inference related to counterfactual scenarios.
-- **Data:**
+- **Data:** This folder contains two dta files:
   - crime_barrio_localidad.dta: Main dataset. Contains information of crimes at the neighborhood leve.
   - crime_barrio_dia_localidad.dta: Secondary dataset. Contains information of crimes at the neighborhood-day/night level. 
 - **Results:** Contains all the results produced by the do-files of "Code & Data" folder. The name of each result file is related to each Do-file by the number with which it starts. Namely, 1_... files in this folder are produced by "Code/1_descriptive_statistics.do", 2_... by "Code/2_... .do", and so on and so forth.
